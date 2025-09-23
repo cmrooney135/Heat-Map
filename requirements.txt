@@ -3,5 +3,4 @@ streamlit
 matplotlib
 pip install seaborn
 numpy
-os 
 re
