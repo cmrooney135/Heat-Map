@@ -1,6 +1,6 @@
 pandas
 streamlit
 matplotlib
-pip install seaborn
+seaborn
 numpy
 re
