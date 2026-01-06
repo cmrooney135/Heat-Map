@@ -16,10 +16,11 @@ def upload_and_split_file(uploaded_file):
         data_lines = csv_lines[1:]
 
         # Remove the first 10 data lines
-        data_lines = data_lines[12:]
+        data_lines = data_lines[9:]
 
         # Write the modified CSV content
         with open("temp/csv_temp.csv", "w", encoding="utf-8") as csv_file:
             csv_file.write(header + "\n")
             csv_file.writelines(line + "\n" for line in data_lines)
+
 
